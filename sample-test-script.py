@@ -21,7 +21,7 @@ async def scan_and_connect():
     # Find the ESP32 device
     for device in devices:
         print(f"Found device: {device.name} - {device.address}")
-        if device.name == "Waveshare S3 HID BLE":  # Match your ESP32 device name
+        if device.name == "ESP32-S3 Keyboard":  # Match your ESP32 device name
             esp32_device = device
             break
 
