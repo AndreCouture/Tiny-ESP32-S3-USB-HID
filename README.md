@@ -49,3 +49,15 @@ This project is ideal for applications requiring a programmable USB keyboard con
 2. Install the required Python packages:
    ```bash
    pip install bleak
+
+---
+
+## **Creating the GUI Application**
+
+To build a standalone distributable version of the GUI application, follow these steps:
+
+### **1. Install PyInstaller**
+Ensure PyInstaller is installed in your Python environment:
+```bash
+pip install pyinstaller
+
