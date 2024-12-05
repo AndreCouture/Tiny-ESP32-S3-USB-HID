@@ -60,4 +60,5 @@ To build a standalone distributable version of the GUI application, follow these
 Ensure PyInstaller is installed in your Python environment:
 ```bash
 pip install pyinstaller
+pyinstaller --onefile --windowed sample-test-script.py
 
